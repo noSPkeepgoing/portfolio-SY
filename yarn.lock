@@ -10582,6 +10582,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-fade-in@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "react-fade-in@npm:2.0.1"
+  peerDependencies:
+    react: ^16.8 || 17
+  checksum: 34e6ddf1641417e170a268b07b514d3207603b14a56bc9836372828b72782df16e51d3bd066a271e6f6c7e2bf2916b100b72b06dd20a5447d965b16f78160cd5
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.8.0":
+  version: 4.8.0
+  resolution: "react-icons@npm:4.8.0"
+  peerDependencies:
+    react: "*"
+  checksum: 4dbba7ad989c295b410e19b2a702722dae44368cb04b6515f9471353552f31ac80bd350f121d5bff79f81504b84039ede44d09e9f035f48bb1032e6eace126c4
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.13.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -11814,6 +11832,8 @@ __metadata:
     eslint-config-react-app: ^7.0.1
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-fade-in: ^2.0.1
+    react-icons: ^4.8.0
     react-router-dom: ^6.11.2
     react-scripts: 5.0.1
     web-vitals: ^2.1.0
