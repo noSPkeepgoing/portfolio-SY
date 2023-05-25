@@ -22,7 +22,7 @@ function App() {
       ],
     },
   ]);
-  return <RouterProvider router={router}>sunyoul's portfoilo</RouterProvider>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
