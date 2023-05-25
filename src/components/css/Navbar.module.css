@@ -4,6 +4,8 @@ a {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +23,7 @@ a {
   font-style: italic;
   font-weight: bold;
   color: var(--color-6);
+  cursor: default;
 }
 
 .list {

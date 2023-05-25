@@ -1,0 +1,14 @@
+.ul {
+  margin: 0;
+  list-style: none;
+  padding: 1rem 3rem;
+  color: var(--color-5);
+  font-size: x-large;
+}
+
+.li {
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
