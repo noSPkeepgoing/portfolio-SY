@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@emailjs/browser", "npm:3.11.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:745bab38e4ceff2280039c6b7b85264bcb60a77726060155d70efbccc16d87d470191e5f8669a323ecd8061200fcd8d108a4cbfb526131babfb445599d0219a0#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:745bab38e4ceff2280039c6b7b85264bcb60a77726060155d70efbccc16d87d470191e5f8669a323ecd8061200fcd8d108a4cbfb526131babfb445599d0219a0#npm:13.5.0"],\
@@ -3204,6 +3205,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/postcss-selector-parser",\
             "postcss-selector-parser"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emailjs/browser", [\
+        ["npm:3.11.0", {\
+          "packageLocation": "./.yarn/cache/@emailjs-browser-npm-3.11.0-3a580335bf-fdeb780f49.zip/node_modules/@emailjs/browser/",\
+          "packageDependencies": [\
+            ["@emailjs/browser", "npm:3.11.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16091,6 +16101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["sunyoul", "workspace:."],\
+            ["@emailjs/browser", "npm:3.11.0"],\
             ["@testing-library/jest-dom", "npm:5.16.5"],\
             ["@testing-library/react", "virtual:745bab38e4ceff2280039c6b7b85264bcb60a77726060155d70efbccc16d87d470191e5f8669a323ecd8061200fcd8d108a4cbfb526131babfb445599d0219a0#npm:13.4.0"],\
             ["@testing-library/user-event", "virtual:745bab38e4ceff2280039c6b7b85264bcb60a77726060155d70efbccc16d87d470191e5f8669a323ecd8061200fcd8d108a4cbfb526131babfb445599d0219a0#npm:13.5.0"],\
