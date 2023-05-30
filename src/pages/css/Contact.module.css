@@ -77,3 +77,10 @@
   font-size: large;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+}

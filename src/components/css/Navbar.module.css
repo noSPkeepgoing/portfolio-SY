@@ -7,8 +7,8 @@ a {
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem;
   height: 10vh;
   width: 100%;
@@ -16,6 +16,64 @@ a {
   box-shadow: -1px 6px 8px 0px rgba(77, 77, 77, 0.76);
   -webkit-box-shadow: -1px 6px 8px 0px rgba(77, 77, 77, 0.76);
   -moz-box-shadow: -1px 6px 8px 0px rgba(77, 77, 77, 0.76);
+  transition: all 0.5s;
+}
+
+.toggle,
+.icon {
+  display: none;
+}
+
+.navicon {
+  cursor: pointer;
+  height: 10vh;
+  padding: 28px 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.naviconlist {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: var(--color-6);
+  position: relative;
+  transition: background-color 0.2s ease-out;
+}
+
+.naviconlist::before,
+.naviconlist::after {
+  background-color: var(--color-6);
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: 0.2s ease-in;
+}
+
+.naviconlist::before {
+  top: -7px;
+}
+
+.naviconlist::after {
+  top: 7px;
+}
+
+.toggle:checked ~ .navicon > .naviconlist {
+  background: transparent;
+}
+
+.toggle:checked ~ .navicon > .naviconlist::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.toggle:checked ~ .navicon > .naviconlist::after {
+  transform: rotate(-45deg);
+  top: 0;
 }
 
 .logo {
@@ -24,12 +82,13 @@ a {
   font-weight: bold;
   color: var(--color-6);
   cursor: default;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .list {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .item {
@@ -49,4 +108,39 @@ a {
 .show {
   color: var(--color-2);
   text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    margin: 0;
+    font-size: larger;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .navicon {
+    display: block;
+  }
+
+  .toggle:checked ~ .list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 3px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .show {
+    color: var(--color-5);
+  }
 }
