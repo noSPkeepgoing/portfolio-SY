@@ -8,7 +8,7 @@ export default function Listen() {
       <ul className={styles.ul}>
         {videos.map((video, idx) => (
           <li key={idx} className={styles.li}>
-            <h2 className={styles.title}>{video.title}</h2>
+            <p className={styles.title}>{video.title}</p>
             <iframe
               key={idx}
               src={`https://www.youtube.com/embed/${video.id}?showinfo=0&enablejsapi=1&origin=http://localhost:3000`}

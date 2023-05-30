@@ -60,11 +60,16 @@ a {
   }
 
   .logo {
-    font-size: larger;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .list {
+    padding: 0;
   }
 
   .item {
-    font-size: small;
+    font-size: 15px;
     padding: 0 1rem;
   }
 }

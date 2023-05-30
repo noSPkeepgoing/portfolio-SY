@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './css/Navbar.module.css';
-import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function Navbar() {
   return (

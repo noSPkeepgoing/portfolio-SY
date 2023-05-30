@@ -13,7 +13,7 @@
   align-items: center;
   cursor: pointer;
   color: var(--color-6);
-  font-size: large;
+  font-size: 16px;
   font-family: Georgia, serif;
   font-weight: bolder;
   border: none;
@@ -38,7 +38,7 @@
   margin: 0;
   padding: 0 2rem;
   list-style: none;
-  color: var(--color-6);
+  color: var(--color-5);
   font-size: x-large;
 }
 
@@ -49,5 +49,9 @@
 @media screen and (max-width: 720px) {
   .img {
     width: 90%;
+  }
+
+  .button {
+    font-size: small;
   }
 }

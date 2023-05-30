@@ -34,7 +34,6 @@
 }
 
 .name > input {
-  border-style: none;
   padding: 0.3rem;
   font-size: large;
 }
@@ -48,7 +47,6 @@
 }
 
 .email > input {
-  border-style: none;
   padding: 0.3rem;
   font-size: large;
 }
@@ -62,25 +60,38 @@
 }
 
 .message > input {
-  outline-style: none;
   padding: 0.3rem;
   font-size: large;
 }
 
 .submit {
   margin: 1.4rem;
-  background-color: var(--color-4);
-  border-style: none;
+  background-color: var(--color-5);
+  color: var(--color-6);
+  border: solid 1px;
   border-radius: 17px;
   padding: 1rem;
-  color: var(--color-2);
   font-size: large;
   font-weight: bolder;
 }
 
+.submit:hover {
+  cursor: pointer;
+  border-radius: 17px;
+  background-color: var(--color-4);
+  color: var(--color-2);
+}
+
 @media screen and (max-width: 720px) {
+  .title {
+    font-size: 20px;
+  }
   .container {
     width: 100%;
     border-radius: 0;
+  }
+
+  .submit {
+    border-radius: 10px;
   }
 }
