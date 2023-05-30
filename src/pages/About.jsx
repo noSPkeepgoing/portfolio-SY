@@ -14,7 +14,7 @@ export default function About() {
     <section className={styles.container}>
       <button className={styles.button} onClick={toggleLanguage}>
         <TbWorld />
-        <div>{english ? 'English' : 'German'}</div>
+        <div>{english ? 'German' : 'English'}</div>
       </button>
       <hr />
       {

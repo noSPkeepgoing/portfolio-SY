@@ -22,7 +22,7 @@
   margin: 0;
   list-style: none;
   padding: 1rem 3rem;
-  color: var(--color-5);
+  color: var(--color-6);
   font-size: x-large;
 }
 
@@ -31,4 +31,12 @@
   padding: 1rem;
   border-top: solid 1px;
   border-bottom: solid 1px;
+}
+
+@media screen and (max-width: 720px) {
+  .select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -38,10 +38,16 @@
   margin: 0;
   padding: 0 2rem;
   list-style: none;
-  color: var(--color-5);
+  color: var(--color-6);
   font-size: x-large;
 }
 
 .li {
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  .img {
+    width: 90%;
+  }
 }

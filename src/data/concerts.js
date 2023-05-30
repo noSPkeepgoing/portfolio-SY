@@ -1,13 +1,5 @@
 export const Pasts = [
   [
-    '24th of June 2023',
-    '15:00h Studio ‘Nanum’ Saarbrucken, Germany ,‘Choi’s Friends’ Beethoven Piano Trio in D major ‘Ghost’ etc.',
-  ],
-  [
-    '5th of June 2023',
-    '18:00h Palais Prinz Saal Heidelberg, Germany ,Brahms Violin Sonata No.2 in A Major, Op100',
-  ],
-  [
     '3rd of Febuary 2023',
     'Elbphilharmonie Hamburg, Germany ,Lucern Festival Contemprorary Orchestra',
   ],
@@ -60,7 +52,11 @@ export const Pasts = [
 
 export const Upcomings = [
   [
-    '16of September 2023',
+    '8th of July 2023',
+    '15:00h Studio ‘Nanum’ Saarbrucken, Germany ,‘Choi’s Friends’ Beethoven Piano Trio in D major ‘Ghost’ etc.',
+  ],
+  [
+    '16th of September 2023',
     "15:00h 'Studio Nanum' in Saarbrucken Germany, Beethoven String Quartett Op.18 No.4 C minor etc. by Fatith Stipendium and DKB Saarbrucken",
   ],
 ];
