@@ -1,6 +1,7 @@
 .container {
   display: flex;
-  margin: 1rem auto;
+  margin: auto;
+  margin-top: 13vh;
   width: 60%;
   flex-direction: column;
   align-items: center;
@@ -16,6 +17,7 @@
 }
 
 .form {
+  width: 70%;
   color: var(--color-6);
   font-size: larger;
   font-weight: bold;
@@ -34,6 +36,8 @@
 }
 
 .name > input {
+  margin-top: 0.3rem;
+  border: none;
   padding: 0.3rem;
   font-size: large;
 }
@@ -47,6 +51,8 @@
 }
 
 .email > input {
+  margin-top: 0.3rem;
+  border: none;
   padding: 0.3rem;
   font-size: large;
 }
@@ -59,27 +65,28 @@
   width: 100%;
 }
 
-.message > input {
+.message > textarea {
+  margin-top: 0.3rem;
+  border: none;
+  resize: none;
+  height: 6rem;
   padding: 0.3rem;
   font-size: large;
 }
 
 .submit {
-  margin: 1.4rem;
-  background-color: var(--color-5);
-  color: var(--color-6);
-  border: solid 1px;
-  border-radius: 17px;
+  text-align: end;
   padding: 1rem;
+  color: var(--color-6);
+  border: none;
+  background-color: transparent;
   font-size: large;
   font-weight: bolder;
 }
 
 .submit:hover {
   cursor: pointer;
-  border-radius: 17px;
-  background-color: var(--color-4);
-  color: var(--color-2);
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 720px) {
@@ -87,6 +94,7 @@
     font-size: 20px;
   }
   .container {
+    margin-top: 16vh;
     width: 100%;
     border-radius: 0;
   }

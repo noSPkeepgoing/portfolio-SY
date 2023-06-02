@@ -5,8 +5,8 @@ import FadeIn from 'react-fade-in';
 
 export default function Concerts() {
   return (
-    <>
-      <div className={styles.select}>
+    <section className={styles.container}>
+      <div id='past' className={styles.select}>
         <a>
           <b>Past Concerts</b>
         </a>
@@ -14,7 +14,7 @@ export default function Concerts() {
           Upcoming Concerts
         </a>
       </div>
-      <ul id='past' className={styles.ul}>
+      <ul className={styles.ul}>
         <FadeIn>
           {Pasts.map((item, idx) => (
             <li key={idx} className={styles.li}>
@@ -25,7 +25,7 @@ export default function Concerts() {
           ))}
         </FadeIn>
       </ul>
-      <div className={styles.select}>
+      <div id='upcoming' className={styles.select}>
         <a className={styles.active} href='#past'>
           Past Concerts
         </a>
@@ -33,7 +33,7 @@ export default function Concerts() {
           <b>Upcoming Concerts</b>
         </a>
       </div>
-      <ul id='upcoming' className={styles.ul}>
+      <ul className={styles.ul}>
         <FadeIn>
           {Upcomings.map((item, idx) => (
             <li key={idx} className={styles.li}>
@@ -44,6 +44,6 @@ export default function Concerts() {
           ))}
         </FadeIn>
       </ul>
-    </>
+    </section>
   );
 }

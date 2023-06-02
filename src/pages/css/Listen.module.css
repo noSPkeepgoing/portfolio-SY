@@ -1,3 +1,7 @@
+.container {
+  padding-top: 10vh;
+}
+
 .ul {
   display: flex;
   padding: 1rem 2rem;
@@ -30,6 +34,9 @@
 }
 
 @media screen and (max-width: 720px) {
+  .container {
+    padding-top: 14vh;
+  }
   .title {
     font-size: large;
   }

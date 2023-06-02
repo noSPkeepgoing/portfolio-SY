@@ -1,3 +1,7 @@
+.container {
+  padding-top: 11vh;
+}
+
 .select {
   display: flex;
   justify-content: end;
@@ -34,6 +38,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  .container {
+    padding-top: 17vh;
+  }
+
   .select {
     display: flex;
     align-items: center;

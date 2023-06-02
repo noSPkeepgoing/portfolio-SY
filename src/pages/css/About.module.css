@@ -1,9 +1,9 @@
 .container {
+  padding: 11vh 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 
 .button {
@@ -47,6 +47,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  .container {
+    padding-top: 18vh;
+  }
+
   .img {
     width: 90%;
   }

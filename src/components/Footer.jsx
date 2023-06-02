@@ -6,9 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <hr />
-      <h3 className={styles.text}>
-        If you want to more <br /> <br /> click this!
-      </h3>
+      <h3 className={styles.text}>click here</h3>
       <div className={styles.icons}>
         <a href='https://www.instagram.com/melody7638/'>
           <FaInstagramSquare />
