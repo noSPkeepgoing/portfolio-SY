@@ -1,10 +1,10 @@
 export const videos = [
   {
-    title: 'Debussy ‘Clair de lune‘ arr.Kreisler ',
+    title: "Debussy 'Clair de lune' arr.Kreisler ",
     id: 'BVqETd9iVkY',
   },
   {
-    title: 'Kreisler ‚Marche miniature viennoise‘',
+    title: "Kreisler 'Marche miniature viennoise'",
     id: 'i4k-9rWkxjc',
   },
   { title: 'F.Kreisler - Liebesleid', id: 'K7jbcrcEhbI' },
