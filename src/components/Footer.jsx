@@ -15,6 +15,7 @@ export default function Footer() {
           <FaFacebookSquare />
         </a>
       </div>
+      <p>Copyright © 2023 sunpaaaa All rights reserved.</p>
     </footer>
   );
 }
