@@ -49,7 +49,7 @@ export default function Contact() {
             <label>Message :</label>
             <textarea name='message' />
           </div>
-          <input className={styles.submit} type='submit' value='>>  SEND' />
+          <input className={styles.submit} type='submit' value='SEND' />
         </form>
       </div>
     </>

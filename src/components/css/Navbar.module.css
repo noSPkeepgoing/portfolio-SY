@@ -12,18 +12,18 @@ a {
   padding: 1rem;
   height: 10vh;
   width: 100%;
-  background-color: var(--color-1);
+  background-color: white;
   transition: all 0.5s;
 }
 
 .logo {
   font-size: xx-large;
-  font-style: italic;
   font-weight: bold;
   color: var(--color-6);
   cursor: default;
   height: 100%;
-  align-items: center;
+  width: 100%;
+  align-items: start;
   padding: 0 1rem;
   cursor: pointer;
 }

@@ -24,8 +24,12 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
+  .home {
+    background-image: url(./imgs/sunyoul.png);
+    opacity: 0.8;
+  }
   .button {
-    margin-top: 40%;
+    margin-top: 30%;
   }
 }
