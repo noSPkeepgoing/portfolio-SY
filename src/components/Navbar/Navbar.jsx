@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from './css/Navbar.module.css';
+import styles from './Navbar.module.css';
 
 const category = ['about', 'concerts', 'listen', 'contact'];
 

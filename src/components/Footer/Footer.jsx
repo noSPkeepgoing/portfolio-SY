@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './css/Footer.module.css';
+import styles from './Footer.module.css';
 import { FaFacebookSquare, FaInstagramSquare } from 'react-icons/fa';
 
 export default function Footer() {
@@ -15,7 +15,9 @@ export default function Footer() {
           <FaFacebookSquare />
         </a>
       </div>
-      <p>Copyright © 2023 sunpaaaa All rights reserved.</p>
+      <p className={styles.copyright}>
+        Copyright © 2023 sunpaaaa All rights reserved.
+      </p>
     </footer>
   );
 }

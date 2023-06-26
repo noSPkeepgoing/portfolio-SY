@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from './css/About.module.css';
-import sun from '../imgs/youl.png';
-import youl from '../imgs/sun.png';
+import styles from './About.module.css';
+import sun from '../../imgs/youl.png';
+import youl from '../../imgs/sun.png';
 import FadeIn from 'react-fade-in';
 import { TbWorld } from 'react-icons/tb';
 

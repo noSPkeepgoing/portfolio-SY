@@ -1,11 +1,10 @@
-import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Root from './pages/Root';
 import Error from './pages/Error';
-import About from './pages/About';
-import Concerts from './pages/Concerts';
-import Listen from './pages/Listen';
-import Contact from './pages/Contact';
+import About from './pages/About/About';
+import Concerts from './pages/Concerts/Concerts';
+import Listen from './pages/Listen/Listen';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   const router = createBrowserRouter([

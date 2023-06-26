@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './css/Listen.module.css';
-import { videos } from '../data/listen';
+import styles from './Listen.module.css';
+import { videos } from '../../data/listen';
 
 export default function Listen() {
   return (

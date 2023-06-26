@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './css/Concerts.module.css';
-import { Pasts, Upcomings } from '../data/concerts.js';
+import styles from './Concerts.module.css';
+import { Pasts, Upcomings } from '../../data/concerts.js';
 import FadeIn from 'react-fade-in';
 
 export default function Concerts() {
