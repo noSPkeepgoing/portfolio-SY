@@ -59,4 +59,8 @@ export const Upcomings = [
     '16th of September 2023',
     "15:00h 'Studio Nanum' in Saarbrucken Germany, Beethoven String Quartett Op.18 No.4 C minor etc. by Fatith Stipendium and DKB Saarbrucken",
   ],
+  [
+    '23th of September 2023',
+    '15:00h Saarbrucken Förster Str.21 Yul Quartet, Beethoven String Quartet Op.18 No.4 C-minor & Op.59 No.2 ‚Razumovsky‘ E-minor.',
+  ],
 ];
