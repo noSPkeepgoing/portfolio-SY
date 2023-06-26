@@ -53,18 +53,12 @@ export const Pasts = [
 export const Upcomings = [
   [
     '8th of July 2023',
-    '15:00h Studio ‘Nanum’ Saarbrucken, Germany ,‘Choi’s Friends’ Beethoven Piano Trio in D major ‘Ghost’ etc.',
-  ],
-  [
-    '8th of July 2023',
-    '20:00h Saarbrucken Förster Str.21 Yul Trio , Beethoven Piano trio Op.1 No.3 C-minor & Op.70 No.1 ‚Geister‘ D-major.',
-  ],
-  [
-    '16th of September 2023',
-    "15:00h 'Studio Nanum' in Saarbrucken Germany, Beethoven String Quartett Op.18 No.4 C minor etc. by Fatith Stipendium and DKB Saarbrucken",
+    '20:00h Saarbrucken Förster Str.21',
+    'Yul Trio , Beethoven Piano trio Op.1 No.3 C-minor & Op.70 No.1 ‚Geister‘ D-major.',
   ],
   [
     '23th of September 2023',
-    '15:00h Saarbrucken Förster Str.21 Yul Quartet, Beethoven String Quartet Op.18 No.4 C-minor & Op.59 No.2 ‚Razumovsky‘ E-minor.',
+    '15:00h Saarbrucken Förster Str.21',
+    'Yul Quartet, Beethoven String Quartet Op.18 No.4 C-minor & Op.59 No.2 ‚Razumovsky‘ E-minor.',
   ],
 ];

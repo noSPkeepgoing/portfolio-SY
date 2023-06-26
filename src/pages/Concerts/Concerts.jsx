@@ -18,9 +18,17 @@ export default function Concerts() {
         <FadeIn>
           {Pasts.map((item, idx) => (
             <li key={idx} className={styles.li}>
-              <b>{item[0]}</b>
-              <br />
-              {item[1]}
+              {item.map((i, idx) => {
+                if (idx == 0) {
+                  return <b>{i}</b>;
+                } else
+                  return (
+                    <>
+                      <br />
+                      {i}
+                    </>
+                  );
+              })}
             </li>
           ))}
         </FadeIn>
@@ -37,9 +45,17 @@ export default function Concerts() {
         <FadeIn>
           {Upcomings.map((item, idx) => (
             <li key={idx} className={styles.li}>
-              <b>{item[0]}</b>
-              <br />
-              {item[1]}
+              {item.map((i, idx) => {
+                if (idx == 0) {
+                  return <b>{i}</b>;
+                } else
+                  return (
+                    <>
+                      <br />
+                      {i}
+                    </>
+                  );
+              })}
             </li>
           ))}
         </FadeIn>
